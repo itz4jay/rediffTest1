@@ -33,8 +33,8 @@ public class AddDelStock {
         waitForPageload();
         driver.findElement(By.xpath("//a[text()='Money']")).click();
         driver.findElement(By.xpath("//a[text()='Sign In']")).click();
-        driver.findElement(By.id("useremail")).sendKeys("sumits2020@rediffmail.com");
-        driver.findElement(By.id("userpass")).sendKeys("Nettest@1234");
+        driver.findElement(By.id("useremail")).sendKeys("******@rediffmail.com");
+        driver.findElement(By.id("userpass")).sendKeys("***dfdgf");
         driver.findElement(By.id("loginsubmit")).click();
         wait = new WebDriverWait(driver,Duration.ofSeconds(30));
         wait.until(ExpectedConditions.elementToBeClickable(By.id("createPortfolio")));
